@@ -8,20 +8,72 @@
 
 /* Begin PBXBuildFile section */
 		0C54A4322AB46DFC00E124F4 /* EDDE_FOOTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4312AB46DFC00E124F4 /* EDDE_FOOTApp.swift */; };
-		0C54A4342AB46DFC00E124F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4332AB46DFC00E124F4 /* ContentView.swift */; };
 		0C54A4362AB46DFD00E124F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C54A4352AB46DFD00E124F4 /* Assets.xcassets */; };
 		0C54A4392AB46DFD00E124F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C54A4382AB46DFD00E124F4 /* Preview Assets.xcassets */; };
 		0C54A4422AB4734300E124F4 /* SelectorBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4412AB4734300E124F4 /* SelectorBoxView.swift */; };
+		0C54A4522AB48CD600E124F4 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4512AB48CD600E124F4 /* LanguageView.swift */; };
+		0C54A4552AB4A72000E124F4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4542AB4A72000E124F4 /* CustomButton.swift */; };
+		0C54A4582AB4A82000E124F4 /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4572AB4A82000E124F4 /* GenderView.swift */; };
+		0C54A45B2AB4AA6A00E124F4 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A45A2AB4AA6900E124F4 /* AgeView.swift */; };
+		0C54A45E2AB4B1CB00E124F4 /* TrainingLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A45D2AB4B1CB00E124F4 /* TrainingLevelView.swift */; };
+		0C54A4792AB4B92E00E124F4 /* TariffViev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4782AB4B92E00E124F4 /* TariffViev.swift */; };
+		0C54A47D2AB4BAC400E124F4 /* WhoAreYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A47C2AB4BAC400E124F4 /* WhoAreYouView.swift */; };
+		0C54A48A2AB4BDC800E124F4 /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4892AB4BDC800E124F4 /* RegisterationView.swift */; };
+		0C54A4922AB4D77900E124F4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4912AB4D77900E124F4 /* Color.swift */; };
+		0C54A4962AB5636E00E124F4 /* EnterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4952AB5636D00E124F4 /* EnterScreen.swift */; };
+		0C54A4A52AB569A700E124F4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4A42AB569A700E124F4 /* RootView.swift */; };
+		0C54A4A82AB56E1900E124F4 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4A72AB56E1900E124F4 /* IndicatorView.swift */; };
+		0C54A4AD2AB575B100E124F4 /* RegisterationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4AC2AB575B100E124F4 /* RegisterationViewModel.swift */; };
+		0C54A4B12AB5771600E124F4 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4B02AB5771600E124F4 /* TitleView.swift */; };
+		0C54A4C22AB58CC000E124F4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4C12AB58CC000E124F4 /* CustomTextField.swift */; };
+		0C54A4C72AB58E1200E124F4 /* InputNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4C62AB58E1200E124F4 /* InputNumberView.swift */; };
+		0C54A4CA2AB591A500E124F4 /* InputNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4C92AB591A500E124F4 /* InputNameView.swift */; };
+		0C54A4CD2AB59C7900E124F4 /* VerifyNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4CC2AB59C7900E124F4 /* VerifyNumberView.swift */; };
+		0C54A4D52AB5B6D100E124F4 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4D42AB5B6D100E124F4 /* ExerciseView.swift */; };
+		0C54A4D92AB5C6EF00E124F4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4D82AB5C6EF00E124F4 /* CustomTabBar.swift */; };
+		0C54A4DD2AB5D85100E124F4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4DC2AB5D85100E124F4 /* MainView.swift */; };
+		0C54A4E82AB5DB0100E124F4 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4E72AB5DB0100E124F4 /* PlanView.swift */; };
+		0C54A4EF2AB75E6800E124F4 /* PlanDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4EE2AB75E6800E124F4 /* PlanDays.swift */; };
+		0C54A4F22AB75EAA00E124F4 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4F12AB75EAA00E124F4 /* BackButton.swift */; };
+		0C54A4F52AB80C6A00E124F4 /* DailyExView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4F42AB80C6A00E124F4 /* DailyExView.swift */; };
+		0C54A4F82AB812F600E124F4 /* ExInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4F72AB812F600E124F4 /* ExInfoView.swift */; };
+		0C54A4FC2AB81F8200E124F4 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54A4FB2AB81F8200E124F4 /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C54A42E2AB46DFC00E124F4 /* EDDE FOOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EDDE FOOT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C54A4312AB46DFC00E124F4 /* EDDE_FOOTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDDE_FOOTApp.swift; sourceTree = "<group>"; };
-		0C54A4332AB46DFC00E124F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C54A4352AB46DFD00E124F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C54A4382AB46DFD00E124F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C54A43A2AB46DFD00E124F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C54A4412AB4734300E124F4 /* SelectorBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorBoxView.swift; sourceTree = "<group>"; };
+		0C54A4512AB48CD600E124F4 /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		0C54A4542AB4A72000E124F4 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0C54A4572AB4A82000E124F4 /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
+		0C54A45A2AB4AA6900E124F4 /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
+		0C54A45D2AB4B1CB00E124F4 /* TrainingLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingLevelView.swift; sourceTree = "<group>"; };
+		0C54A4782AB4B92E00E124F4 /* TariffViev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffViev.swift; sourceTree = "<group>"; };
+		0C54A47C2AB4BAC400E124F4 /* WhoAreYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoAreYouView.swift; sourceTree = "<group>"; };
+		0C54A4892AB4BDC800E124F4 /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
+		0C54A4912AB4D77900E124F4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0C54A4952AB5636D00E124F4 /* EnterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterScreen.swift; sourceTree = "<group>"; };
+		0C54A4A42AB569A700E124F4 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		0C54A4A72AB56E1900E124F4 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		0C54A4AC2AB575B100E124F4 /* RegisterationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationViewModel.swift; sourceTree = "<group>"; };
+		0C54A4B02AB5771600E124F4 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		0C54A4C12AB58CC000E124F4 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		0C54A4C62AB58E1200E124F4 /* InputNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNumberView.swift; sourceTree = "<group>"; };
+		0C54A4C92AB591A500E124F4 /* InputNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNameView.swift; sourceTree = "<group>"; };
+		0C54A4CC2AB59C7900E124F4 /* VerifyNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyNumberView.swift; sourceTree = "<group>"; };
+		0C54A4D42AB5B6D100E124F4 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		0C54A4D82AB5C6EF00E124F4 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		0C54A4DC2AB5D85100E124F4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0C54A4E72AB5DB0100E124F4 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		0C54A4EE2AB75E6800E124F4 /* PlanDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDays.swift; sourceTree = "<group>"; };
+		0C54A4F12AB75EAA00E124F4 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		0C54A4F42AB80C6A00E124F4 /* DailyExView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExView.swift; sourceTree = "<group>"; };
+		0C54A4F72AB812F600E124F4 /* ExInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExInfoView.swift; sourceTree = "<group>"; };
+		0C54A4FB2AB81F8200E124F4 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +106,11 @@
 		0C54A4302AB46DFC00E124F4 /* EDDE FOOT */ = {
 			isa = PBXGroup;
 			children = (
-				0C54A4312AB46DFC00E124F4 /* EDDE_FOOTApp.swift */,
-				0C54A4332AB46DFC00E124F4 /* ContentView.swift */,
-				0C54A4412AB4734300E124F4 /* SelectorBoxView.swift */,
+				0C54A4A22AB5696500E124F4 /* Root */,
+				0C54A4872AB4BD1E00E124F4 /* Registration */,
+				0C54A4DB2AB5D82D00E124F4 /* Main */,
+				0C54A4882AB4BD4000E124F4 /* Subviews */,
+				0C54A4912AB4D77900E124F4 /* Color.swift */,
 				0C54A4352AB46DFD00E124F4 /* Assets.xcassets */,
 				0C54A43A2AB46DFD00E124F4 /* Info.plist */,
 				0C54A4372AB46DFD00E124F4 /* Preview Content */,
@@ -70,6 +124,102 @@
 				0C54A4382AB46DFD00E124F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C54A4872AB4BD1E00E124F4 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				0C54A4AB2AB5757900E124F4 /* RegisterationViewModel */,
+				0C54A4AA2AB5756300E124F4 /* RegistrationView */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		0C54A4882AB4BD4000E124F4 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				0C54A4542AB4A72000E124F4 /* CustomButton.swift */,
+				0C54A4412AB4734300E124F4 /* SelectorBoxView.swift */,
+				0C54A4A72AB56E1900E124F4 /* IndicatorView.swift */,
+				0C54A4B02AB5771600E124F4 /* TitleView.swift */,
+				0C54A4C12AB58CC000E124F4 /* CustomTextField.swift */,
+				0C54A4D82AB5C6EF00E124F4 /* CustomTabBar.swift */,
+				0C54A4F12AB75EAA00E124F4 /* BackButton.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		0C54A4A22AB5696500E124F4 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				0C54A4312AB46DFC00E124F4 /* EDDE_FOOTApp.swift */,
+				0C54A4A42AB569A700E124F4 /* RootView.swift */,
+				0C54A4952AB5636D00E124F4 /* EnterScreen.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		0C54A4AA2AB5756300E124F4 /* RegistrationView */ = {
+			isa = PBXGroup;
+			children = (
+				0C54A4892AB4BDC800E124F4 /* RegisterationView.swift */,
+				0C54A4512AB48CD600E124F4 /* LanguageView.swift */,
+				0C54A4C62AB58E1200E124F4 /* InputNumberView.swift */,
+				0C54A4CC2AB59C7900E124F4 /* VerifyNumberView.swift */,
+				0C54A47C2AB4BAC400E124F4 /* WhoAreYouView.swift */,
+				0C54A4C92AB591A500E124F4 /* InputNameView.swift */,
+				0C54A4572AB4A82000E124F4 /* GenderView.swift */,
+				0C54A45A2AB4AA6900E124F4 /* AgeView.swift */,
+				0C54A45D2AB4B1CB00E124F4 /* TrainingLevelView.swift */,
+				0C54A4782AB4B92E00E124F4 /* TariffViev.swift */,
+			);
+			path = RegistrationView;
+			sourceTree = "<group>";
+		};
+		0C54A4AB2AB5757900E124F4 /* RegisterationViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0C54A4AC2AB575B100E124F4 /* RegisterationViewModel.swift */,
+			);
+			path = RegisterationViewModel;
+			sourceTree = "<group>";
+		};
+		0C54A4DB2AB5D82D00E124F4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0C54A4DC2AB5D85100E124F4 /* MainView.swift */,
+				0C54A4EB2AB7111000E124F4 /* Plan */,
+				0C54A4EC2AB7112400E124F4 /* Exercise */,
+				0C54A4FA2AB81F2200E124F4 /* Chat */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0C54A4EB2AB7111000E124F4 /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				0C54A4E72AB5DB0100E124F4 /* PlanView.swift */,
+				0C54A4EE2AB75E6800E124F4 /* PlanDays.swift */,
+				0C54A4F42AB80C6A00E124F4 /* DailyExView.swift */,
+				0C54A4F72AB812F600E124F4 /* ExInfoView.swift */,
+			);
+			path = Plan;
+			sourceTree = "<group>";
+		};
+		0C54A4EC2AB7112400E124F4 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				0C54A4D42AB5B6D100E124F4 /* ExerciseView.swift */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		0C54A4FA2AB81F2200E124F4 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				0C54A4FB2AB81F8200E124F4 /* ContactView.swift */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +291,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C54A4342AB46DFC00E124F4 /* ContentView.swift in Sources */,
+				0C54A4CA2AB591A500E124F4 /* InputNameView.swift in Sources */,
+				0C54A4792AB4B92E00E124F4 /* TariffViev.swift in Sources */,
+				0C54A4CD2AB59C7900E124F4 /* VerifyNumberView.swift in Sources */,
+				0C54A47D2AB4BAC400E124F4 /* WhoAreYouView.swift in Sources */,
+				0C54A4C72AB58E1200E124F4 /* InputNumberView.swift in Sources */,
+				0C54A4D52AB5B6D100E124F4 /* ExerciseView.swift in Sources */,
 				0C54A4322AB46DFC00E124F4 /* EDDE_FOOTApp.swift in Sources */,
+				0C54A4AD2AB575B100E124F4 /* RegisterationViewModel.swift in Sources */,
+				0C54A4A82AB56E1900E124F4 /* IndicatorView.swift in Sources */,
+				0C54A4A52AB569A700E124F4 /* RootView.swift in Sources */,
+				0C54A4EF2AB75E6800E124F4 /* PlanDays.swift in Sources */,
+				0C54A4962AB5636E00E124F4 /* EnterScreen.swift in Sources */,
+				0C54A4C22AB58CC000E124F4 /* CustomTextField.swift in Sources */,
+				0C54A45E2AB4B1CB00E124F4 /* TrainingLevelView.swift in Sources */,
+				0C54A4F52AB80C6A00E124F4 /* DailyExView.swift in Sources */,
+				0C54A4922AB4D77900E124F4 /* Color.swift in Sources */,
 				0C54A4422AB4734300E124F4 /* SelectorBoxView.swift in Sources */,
+				0C54A4582AB4A82000E124F4 /* GenderView.swift in Sources */,
+				0C54A4D92AB5C6EF00E124F4 /* CustomTabBar.swift in Sources */,
+				0C54A4B12AB5771600E124F4 /* TitleView.swift in Sources */,
+				0C54A4522AB48CD600E124F4 /* LanguageView.swift in Sources */,
+				0C54A4DD2AB5D85100E124F4 /* MainView.swift in Sources */,
+				0C54A48A2AB4BDC800E124F4 /* RegisterationView.swift in Sources */,
+				0C54A4F82AB812F600E124F4 /* ExInfoView.swift in Sources */,
+				0C54A4FC2AB81F8200E124F4 /* ContactView.swift in Sources */,
+				0C54A4552AB4A72000E124F4 /* CustomButton.swift in Sources */,
+				0C54A45B2AB4AA6A00E124F4 /* AgeView.swift in Sources */,
+				0C54A4F22AB75EAA00E124F4 /* BackButton.swift in Sources */,
+				0C54A4E82AB5DB0100E124F4 /* PlanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
